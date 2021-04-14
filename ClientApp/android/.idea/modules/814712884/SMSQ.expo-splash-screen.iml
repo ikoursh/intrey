@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":expo-splash-screen" external.linked.project.path="$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="host.exp.exponent" external.system.module.version="0.8.1" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":expo-splash-screen" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.5.3" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="3.5.3" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/main/res;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/debug/res;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/androidTest/res;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/740148b5408196fe29b8d4b17cdb9b69/jetified-react-native-0.63.4-api.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/com.facebook.infer.annotation/infer-annotation/0.11.2/f514ff4ca022a579d9cf7524846988b646ae4491/infer-annotation-0.11.2.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/com.facebook.yoga/proguard-annotations/1.14.1/3d015bb821875657ac8e4b808a223aae339defb2/proguard-annotations-1.14.1.jar;C:/Users/ikoursh/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/7147b053e770db454495f1a315c80260/appcompat-1.2.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/f2db5228ac2b3cdf23b4a7a3d89d640c/swiperefreshlayout-1.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/6c2c6b2064c3ce76d93bdabf28f1b5a7/fragment-1.1.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/df0276612d32cb2c57386a8f6ebc54cb/appcompat-resources-1.2.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/09128c9df3cf30d651004a5e67422bf4/drawerlayout-1.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/4562d0c3aa971176d149f1638cffd846/viewpager-1.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/f540eec0b7a3790441c02bb1212ef359/loader-1.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/7a622030ff3018fce1b69900c76e7ba4/activity-1.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/1eab4ddb8e545e72ce040f2708afa286/vectordrawable-animated-1.1.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/00b42b5975934ce7c905a27a023dc30f/vectordrawable-1.1.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/0e477332cc5f8984129f27e20226ec92/customview-1.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/48619306ee17d4b5f17317979ef4acfc/core-1.3.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/cec6ba68c6d49c8e662631305068a4df/cursoradapter-1.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/69f339966afe0680f18732ad7b25cf22/interpolator-1.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/4ee442af40069521b189077f15c12659/lifecycle-runtime-2.1.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/a1ce6fbac7c391c2bb9081da1f3f1dd9/versionedparcelable-1.1.0-api.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/358a1116fd91440797067f314bbce1d1/lifecycle-viewmodel-2.1.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/9947ad78ea5ed04b0d14f32fcc243cbb/savedstate-1.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/bf076fc84b56bfc432c8efdf0b6614ce/lifecycle-livedata-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/bcdbd8e16d9d859de6abac4afd2b5dc6/lifecycle-livedata-core-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0/c67e7807d9cd6c329b9d0218b2ec4e505dd340b7/lifecycle-common-2.1.0.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/debd73000d537c3c2f2d7ad0fe0f3ff2/core-runtime-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/9e72933e51cf6edcf8cfe8b2c5d4acb8/fresco-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/52dfb352237ee4d93fb09708e258cf7f/jetified-fbcore-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/51aa2da1f9e665fe6263d12486a7f96f/drawee-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/89e73f0cc38d9642d08cf40546426f73/imagepipeline-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/9b9c29cd2c2ee7e8c83f130d3e605562/imagepipeline-base-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/a882db49f3affb93b26e4f3131551753/soloader-0.9.0-api.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/com.facebook.soloader/annotation/0.9.0/dc58463712cb3e5f03d8ee5ac9743b9ced9afa77/annotation-0.9.0.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/com.facebook.soloader/nativeloader/0.9.0/677c7fbfcc847d7eb6082048d07b10afd4cff898/nativeloader-0.9.0.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/1c2fc108e47a2e82d119a4f4e047503b/nativeimagefilters-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/179fe386952d3ec24ffd30995528b4a6/nativeimagetranscoder-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/92a2773b3eeb01688de61fd718f26452/imagepipeline-okhttp3-2.0.0-api.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.12.12/3cfbe11fb8c48d30600a70f90b3283fc858aea72/okhttp-urlconnection-3.12.12.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.12/d3e1ce1d2b3119adf270b2d00d947beb03fe3321/okhttp-3.12.12.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.15.0/bc28b5a964c8f5721eb58ee3f3c47a9bcbf4f4d8/okio-1.15.0.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/com.facebook.fbjni/fbjni-java-only/0.0.3/c4540aecb99b9ec380acef6c10bb6f700de8ac2c/fbjni-java-only-0.0.3.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar;C:/Users/ikoursh/.gradle/caches/transforms-2/files-2.1/b2e7b92ecae007bf7d76042b9173d9ec/jetified-kotlin-reflect-1.3.50.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar;C:/Users/ikoursh/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/ikoursh/AppData/Local/Android/Sdk/platforms/android-29/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="expo-splash-screen_debug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build/generated/res/resValues/debug" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../node_modules/expo-splash-screen/android/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.facebook.infer.annotation:infer-annotation:0.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.yoga:proguard-annotations:1.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:annotation:0.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:nativeloader:0.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:3.12.12" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.12.12" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.15.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fbjni:fbjni-java-only:0.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.react:react-native:0.63.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fresco:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fbcore:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:drawee:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-base:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:soloader:0.9.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagefilters:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagetranscoder:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:2.0.0@aar" level="project" />
+    <orderEntry type="module" module-name="SMSQ.unimodules-core" />
+  </component>
+</module>

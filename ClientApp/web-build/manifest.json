@@ -1,0 +1,34 @@
+{
+  "background_color": "#F58603",
+  "description": "Providing a safe environment where people can explore and express different political perspectives",
+  "display": "standalone",
+  "lang": "en",
+  "name": "Intrey",
+  "short_name": "Intrey",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "id": "com.SMSQ"
+    }
+  ],
+  "prefer_related_applications": true,
+  "icons": [
+    {
+      "src": "/pwa/chrome-icon/chrome-icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa/chrome-icon/chrome-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa/chrome-icon/chrome-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

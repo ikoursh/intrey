@@ -1,0 +1,300 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smsq"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:3:3-75
+11-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:3:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:4:3-72
+13-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:4:20-70
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:5:3-71
+14-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:5:20-69
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+15-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:6:3-69
+15-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:6:20-67
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:7:3-63
+16-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:7:20-61
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:8:3-77
+17-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:8:20-75
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:9:3-78
+18-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:9:20-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:10:3-76
+19-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:10:20-74
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:11:3-82
+20-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:11:20-80
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:12:3-62
+21-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:12:20-60
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:13:3-68
+22-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:13:20-66
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:14:3-69
+23-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:14:20-67
+24    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+24-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:15:3-70
+24-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:15:20-68
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:16:3-69
+25-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:16:20-67
+26    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+26-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:17:3-70
+26-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:17:20-68
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:18:3-77
+27-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:18:20-75
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:19:3-78
+28-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:19:20-76
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:20:3-70
+29-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:20:20-68
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->[com.facebook.flipper:flipper:0.54.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\75238863e6b45aca4b9c498f6fefb9f4\flipper-0.54.0\AndroidManifest.xml:16:5-76
+30-->[com.facebook.flipper:flipper:0.54.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\75238863e6b45aca4b9c498f6fefb9f4\flipper-0.54.0\AndroidManifest.xml:16:22-73
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[:expo-updates] C:\Users\ikoursh\SMSQ\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+31-->[:expo-updates] C:\Users\ikoursh\SMSQ\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->[:expo-location] C:\Users\ikoursh\SMSQ\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+32-->[:expo-location] C:\Users\ikoursh\SMSQ\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\a3a1fb04b2484116465b7d25d007f80d\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\a3a1fb04b2484116465b7d25d007f80d\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+34    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+34-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:15:5-98
+34-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:15:22-95
+35    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+35-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:16:5-94
+35-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:16:22-91
+36
+37    <application
+37-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:21:3-34:17
+38        android:name="com.smsq.MainApplication"
+38-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:21:16-47
+39        android:allowBackup="false"
+39-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:21:162-189
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\e1f0764c0505c94615b22f37f2526db5\core-1.3.0\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:21:81-115
+43        android:label="@string/app_name"
+43-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:21:48-80
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:21:116-161
+45        android:testOnly="true"
+46        android:theme="@style/AppTheme"
+46-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:21:190-221
+47        android:usesCleartextTraffic="true" >
+47-->C:\Users\ikoursh\SMSQ\android\app\src\debug\AndroidManifest.xml:6:18-53
+48        <meta-data
+48-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:22:5-115
+49            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+49-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:22:16-67
+50            android:value="https://exp.host/@nullpe/SMSQ" />
+50-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:22:68-113
+51        <meta-data
+51-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:23:5-93
+52            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+52-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:23:16-68
+53            android:value="40.0.0" />
+53-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:23:69-91
+54        <meta-data
+54-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:24:5-82
+55            android:name="expo.modules.updates.ENABLED"
+55-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:24:16-59
+56            android:value="true" />
+56-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:24:60-80
+57        <meta-data
+57-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:25:5-105
+58            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+58-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:25:16-80
+59            android:value="ALWAYS" />
+59-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:25:81-103
+60        <meta-data
+60-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:26:5-99
+61            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+61-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:26:16-79
+62            android:value="0" />
+62-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:26:80-97
+63
+64        <activity
+64-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:27:5-32:16
+65            android:name="com.smsq.MainActivity"
+65-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:27:15-43
+66            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+66-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:27:77-154
+67            android:label="@string/app_name"
+67-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:27:44-76
+68            android:launchMode="singleTask"
+68-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:27:155-186
+69            android:theme="@style/Theme.App.SplashScreen"
+69-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:27:230-275
+70            android:windowSoftInputMode="adjustResize" >
+70-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:27:187-229
+71            <intent-filter>
+71-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:28:7-31:23
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:29:9-60
+72-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:29:17-58
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:30:9-68
+74-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:30:19-66
+75            </intent-filter>
+76        </activity>
+77        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+77-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:33:5-81
+77-->C:\Users\ikoursh\SMSQ\android\app\src\main\AndroidManifest.xml:33:15-79
+78
+79        <meta-data
+79-->[:unimodules-react-native-adapter] C:\Users\ikoursh\SMSQ\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+80            android:name="org.unimodules.core.AppLoader#react-native-headless"
+80-->[:unimodules-react-native-adapter] C:\Users\ikoursh\SMSQ\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+81            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+81-->[:unimodules-react-native-adapter] C:\Users\ikoursh\SMSQ\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+82
+83        <provider
+83-->[:expo-file-system] C:\Users\ikoursh\SMSQ\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
+84            android:name="expo.modules.filesystem.FileSystemFileProvider"
+84-->[:expo-file-system] C:\Users\ikoursh\SMSQ\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-74
+85            android:authorities="com.smsq.FileSystemFileProvider"
+85-->[:expo-file-system] C:\Users\ikoursh\SMSQ\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+86            android:exported="false"
+86-->[:expo-file-system] C:\Users\ikoursh\SMSQ\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-37
+87            android:grantUriPermissions="true" >
+87-->[:expo-file-system] C:\Users\ikoursh\SMSQ\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-47
+88            <meta-data
+88-->[:expo-file-system] C:\Users\ikoursh\SMSQ\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-25:70
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->[:expo-file-system] C:\Users\ikoursh\SMSQ\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-67
+90                android:resource="@xml/file_system_provider_paths" />
+90-->[:expo-file-system] C:\Users\ikoursh\SMSQ\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+91        </provider>
+92
+93        <service
+93-->[:expo-location] C:\Users\ikoursh\SMSQ\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+94            android:name="expo.modules.location.services.LocationTaskService"
+94-->[:expo-location] C:\Users\ikoursh\SMSQ\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+95            android:exported="false" />
+95-->[:expo-location] C:\Users\ikoursh\SMSQ\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+96
+97        <activity
+97-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+98            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+98-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+99            android:excludeFromRecents="true"
+99-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+102        <!--
+103            Service handling Google Sign-In user revocation. For apps that do not integrate with
+104            Google Sign-In, this service will never be started.
+105        -->
+106        <service
+106-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+107            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+107-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+108            android:exported="true"
+108-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+109            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+109-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+110            android:visibleToInstantApps="true" />
+110-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+111
+112        <activity
+112-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\207e446c2fa09137691809e6a8cbeffa\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+113            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+113-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\207e446c2fa09137691809e6a8cbeffa\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\207e446c2fa09137691809e6a8cbeffa\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\207e446c2fa09137691809e6a8cbeffa\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+119            android:authorities="com.smsq.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+123
+124        <service
+124-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:33:9-46:19
+125            android:name="com.google.firebase.components.ComponentDiscoveryService"
+125-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:34:13-84
+126            android:directBootAware="true"
+126-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+127            android:exported="false" >
+127-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:36:13-37
+128
+129            <!--
+130                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+131                clients to use it as well, by defining this registrar in their own core/common library.
+132            -->
+133            <meta-data
+133-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+134                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+134-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\9229e07df3f7cafdd6bf6c38e795bfbe\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+136        </service>
+137
+138        <meta-data
+138-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\df201d29a316978a3df4d5d45ef2425d\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+139            android:name="com.google.android.gms.version"
+139-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\df201d29a316978a3df4d5d45ef2425d\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+140            android:value="@integer/google_play_services_version" />
+140-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\df201d29a316978a3df4d5d45ef2425d\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+141
+142        <service
+142-->[androidx.room:room-runtime:2.1.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\1f9600edb87ec7249ed2f749439da712\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+143            android:name="androidx.room.MultiInstanceInvalidationService"
+143-->[androidx.room:room-runtime:2.1.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\1f9600edb87ec7249ed2f749439da712\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+144            android:exported="false" />
+144-->[androidx.room:room-runtime:2.1.0] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\1f9600edb87ec7249ed2f749439da712\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+145        <service
+145-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:19:9-21:40
+146            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+146-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:20:13-132
+147            android:exported="false" />
+147-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:21:13-37
+148        <service
+148-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:22:9-24:40
+149            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+149-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:23:13-127
+150            android:exported="false" />
+150-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:24:13-37
+151        <service
+151-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:25:9-27:40
+152            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+152-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:26:13-120
+153            android:exported="false" />
+153-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\ikoursh\.gradle\caches\transforms-2\files-2.1\2d5c92a7b054842244d9b13184fbc7db\jetified-library-3.2.11\AndroidManifest.xml:27:13-37
+154    </application>
+155
+156</manifest>

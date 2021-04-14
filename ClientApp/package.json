@@ -1,0 +1,57 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest",
+    "predeploy": "npx expo-optimize && expo build:web",
+    "deploy-hosting": "npm run predeploy && firebase deploy"
+  },
+  "dependencies": {
+    "@eva-design/eva": "^2.0.0",
+    "@expo/webpack-config": "~0.12.45",
+    "@firebase/firestore": "^2.1.5",
+    "@react-native-community/async-storage": "~1.12.0",
+    "@react-native-community/google-signin": "^5.0.0",
+    "@react-native-community/slider": "3.0.3",
+    "@react-native-firebase/app": "^10.7.0",
+    "@react-navigation/bottom-tabs": "^5.11.7",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.2",
+    "@types/react-alert": "^5.2.0",
+    "@ui-kitten/components": "^5.0.0",
+    "@ui-kitten/eva-icons": "^5.0.0",
+    "expo": "~40.0.0",
+    "expo-image-picker": "~9.2.0",
+    "expo-splash-screen": "~0.8.1",
+    "expo-updates": "~0.4.1",
+    "firebase": "7.9.0",
+    "pushid": "^1.0.0",
+    "react": "16.13.1",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-dom": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-screens": "~2.15.2",
+    "react-native-svg": "^12.1.0",
+    "react-native-unimodules": "~0.12.0",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@types/react": "~16.9.35",
+    "@types/react-dom": "~16.9.8",
+    "@types/react-native": "~0.63.2",
+    "babel-preset-expo": "8.3.0",
+    "jest-expo": "^40.0.0",
+    "typescript": "~4.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}

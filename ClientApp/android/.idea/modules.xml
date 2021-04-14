@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SMSQ.iml" filepath="$PROJECT_DIR$/.idea/modules/SMSQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SMSQ.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SMSQ.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/502483314/SMSQ.expo-application.iml" filepath="$PROJECT_DIR$/.idea/modules/502483314/SMSQ.expo-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/818458353/SMSQ.expo-constants.iml" filepath="$PROJECT_DIR$/.idea/modules/818458353/SMSQ.expo-constants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1305092888/SMSQ.expo-error-recovery.iml" filepath="$PROJECT_DIR$/.idea/modules/1305092888/SMSQ.expo-error-recovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-27461694/SMSQ.expo-file-system.iml" filepath="$PROJECT_DIR$/.idea/modules/-27461694/SMSQ.expo-file-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1468393939/SMSQ.expo-font.iml" filepath="$PROJECT_DIR$/.idea/modules/-1468393939/SMSQ.expo-font.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1734042973/SMSQ.expo-image-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/-1734042973/SMSQ.expo-image-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/957212315/SMSQ.expo-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/957212315/SMSQ.expo-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/325070842/SMSQ.expo-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/325070842/SMSQ.expo-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1649931411/SMSQ.expo-location.iml" filepath="$PROJECT_DIR$/.idea/modules/1649931411/SMSQ.expo-location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/946455718/SMSQ.expo-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/946455718/SMSQ.expo-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1127539433/SMSQ.expo-secure-store.iml" filepath="$PROJECT_DIR$/.idea/modules/1127539433/SMSQ.expo-secure-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/814712884/SMSQ.expo-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/814712884/SMSQ.expo-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1152775530/SMSQ.expo-sqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/1152775530/SMSQ.expo-sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-351618068/SMSQ.expo-updates.iml" filepath="$PROJECT_DIR$/.idea/modules/-351618068/SMSQ.expo-updates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2068590619/SMSQ.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/2068590619/SMSQ.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1878307548/SMSQ.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1878307548/SMSQ.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1998593944/SMSQ.unimodules-app-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/1998593944/SMSQ.unimodules-app-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1610749084/SMSQ.unimodules-barcode-scanner-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1610749084/SMSQ.unimodules-barcode-scanner-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/704384554/SMSQ.unimodules-camera-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/704384554/SMSQ.unimodules-camera-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1532577986/SMSQ.unimodules-constants-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1532577986/SMSQ.unimodules-constants-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1063150764/SMSQ.unimodules-core.iml" filepath="$PROJECT_DIR$/.idea/modules/-1063150764/SMSQ.unimodules-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1629642089/SMSQ.unimodules-face-detector-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1629642089/SMSQ.unimodules-face-detector-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1896269037/SMSQ.unimodules-file-system-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1896269037/SMSQ.unimodules-file-system-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-233596140/SMSQ.unimodules-font-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-233596140/SMSQ.unimodules-font-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/65526026/SMSQ.unimodules-image-loader-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/65526026/SMSQ.unimodules-image-loader-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2077869321/SMSQ.unimodules-permissions-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-2077869321/SMSQ.unimodules-permissions-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-842092708/SMSQ.unimodules-react-native-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/-842092708/SMSQ.unimodules-react-native-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-493313364/SMSQ.unimodules-sensors-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-493313364/SMSQ.unimodules-sensors-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1684242518/SMSQ.unimodules-task-manager-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1684242518/SMSQ.unimodules-task-manager-interface.iml" />
+    </modules>
+  </component>
+</project>

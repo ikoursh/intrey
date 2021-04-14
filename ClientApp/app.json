@@ -1,0 +1,24 @@
+{
+  "name": "Intrey",
+  "displayName": "Intrey",
+  "expo": {
+    "name": "Intrey",
+    "orientation": "portrait",
+    "slug": "Intrey",
+    "version": "0.0.1",
+    "icon": "src/assets/icon.png",
+    "description": "Providing a safe environment where people can explore and express different political perspectives",
+    "splash": {
+      "image": "src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F58603"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.SMSQ",
+      "buildNumber": "0.0.1"
+    }
+  }
+}
